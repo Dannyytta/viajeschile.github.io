@@ -2,4 +2,24 @@
 
 body * {
     font-family: 'Schibsted Grotesk', sans-serif ;
+    color: white;
 }
+
+.icono-avion{
+    text-align: center;
+    height: 35px;
+    background-color: #0cccf4;
+}
+
+.icono-montana{
+    text-align: center;
+    height: 35px;
+    background-color: #0cccf4;
+}
+
+.icono-ruta{
+    text-align: center;
+    height: 35px;
+    background-color: #0cccf4;
+}
+

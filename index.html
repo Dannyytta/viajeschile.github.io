@@ -12,15 +12,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lw4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     
 </head>
 <body style="background-color: black;">
-<div class="container" style="background-color: black;">   
+<div style="background-color: black;">   
     
 <!--Nav-->
-    <nav class="container">
-        <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark";>
+    <nav>
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top" data-bs-theme="dark";>
             <div class= container-fluid>
                 <a class= "navbar-brand" href="logo">
                     <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -50,7 +51,7 @@
 
 
     <!--Header-->
-    <header class="container">
+    <header  style="padding-bottom: 20px;">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -76,18 +77,52 @@
     <!--Fin Header-->
 
 
-    <!--QUIENES SOMOS-->
+    <!--QUIENES SOMOS 2-->
 
-    <article id="quienes-somos">
-        <section id="titulo-quienes-somos container" style="padding: 20px;">
+    <article class="container" id="quienes-somos" style="justify-content: center;">
+      <div class="row ">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="icono-avion">
+            <i class="fas fa-plane" style="color: #ffffff;"></i>
+          </div>
+          <p style="color: #ffffff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+             Sequi at dolore totam minus distinctio voluptates nihil, <br>
+             quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
+             optio veniam, rerum sed hic quod repudiandae.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="icono-montana">
+            <i class="fas fa-mountain" style="color: #ffffff;"></i>
+          </div>
+          <p style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+             Sequi at dolore totam minus distinctio voluptates nihil, <br>
+             quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
+             optio veniam, rerum sed hic quod repudiandae.</p>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+          <div class="icono-ruta">
+            <i class="fas fa-route" style="color: #ffffff;"></i>
+          </div>
+          <p style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+             Sequi at dolore totam minus distinctio voluptates nihil, <br>
+             quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
+             optio veniam, rerum sed hic quod repudiandae.</p>
+        </div>
+      </div>
+    </article>
+
+    <!--QUIENES SOMOS
+
+    <article id="quienes-somos container">
+        <section id="titulo-quienes-somos" style="padding: 20px; margin-bottom: 20px;">
             <CENTER><p class="fs-3" style="color: #ffffff";>¿QUIÉNES SOMOS?</p></CENTER>
         </section>
         <section id="parrafos container">
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+                <div class="col container" style="text-align: center ;">
                     <div class="card border-dark mb-3 bg-black " style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-dark" style="background-color: black;">
+                        <div class="card-header bg-transparent border-dark" style="background-color: #0cccf4;">
                            FOOTER
                         </div>
                         <div class="card-body text-light">
@@ -106,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col container">
                     <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
                         <div class="card-body text-light">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -127,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col container">
                     <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
                         <div class="card-header bg-transparent border-dark">
                             Header <i class="fa-solid fa-route" style="color: #ffffff;"></i>
@@ -153,38 +188,37 @@
         </section>
     </article>
 
-    <!--FIN QUIENES SOMOS-->
+   -FIN QUIENES SOMOS-->
 
 
     <!--DESTACADOS-->
-    <article id="destacados">
+    <article class="container"  id="destacados">
         <section id="titulo-quienes-somos container" style="padding: 20px;">
             <CENTER><p class="fs-3" style="color: #ffffff";>DESTACADOS</p></CENTER>
 
         </section>
 
-        
-
         <section id="cards-4">
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col col-lg-3">
-                  <div class="card h-100 card text-bg-info mb-3" style="max-width: 18rem;">
-                    <img src="assets/img/card1.jpg" class="card-img-top" >
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col col-lg-3">
+              <div class="card h-100 card text-bg-info mb-3" style="max-width: 18rem;">
+                <img src="assets/img/card1.jpg" class="card-img-top" >
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+              <div class="col col-lg-3">
+                <div class="card h-100 card text-bg-info mb-2" style="max-width: 18rem;">
+                  <img src="assets/img/card2.jpg" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   </div>
                 </div>
-                <div class="col col-lg-3">
-                  <div class="card h-100 card text-bg-info mb-2" style="max-width: 18rem;">
-                    <img src="assets/img/card2.jpg" class="card-img-top" >
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                  </div>
-                </div>
+              </div>
                 <div class="col col-lg-3">
                   <div class="card h-100 card text-bg-info mb-3"  style="max-width: 18rem;">
                     <img src="assets/img/card3.jpg" class="card-img-top" >
@@ -203,7 +237,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+          </div>
 
         </section>
     </article>
@@ -212,7 +246,7 @@
 
 
     <!--CONTACTO-->
-    <article id="contacto">
+    <article id="contacto container" style="padding: 50px;">
         <section id="titulo-quienes-somos container" style="padding: 20px;">
             <CENTER><p class="fs-3" style="color: #ffffff";>CONTACTO</p></CENTER>
 
@@ -231,8 +265,9 @@
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
             <div class="col-auto">
-                <button type="submit" class="btn btn-info mb-3">Enviar</button>
+                <button type="submit" class="btn btn-info mb-3" style="color: #ffffff;">Enviar</button>
             </div>
+           
 
         </section>
     </article>
@@ -241,9 +276,11 @@
 
     <!--FOOTER-->
 
-    <footer style="background-color:  #0cccf4 ; padding: 20px;">
+    <footer class="row col-12" style="background-color:  #0cccf4 ; padding: 20px;" >
     <section>
-        <div>iconos</div>
+        <div><p class="fs-3" style="color: #ffffff";>CONTACTO</p></div>
+        <div class="container" style="justify-content: end;">iconos </div>
+
     </section>    
     </footer>
 
