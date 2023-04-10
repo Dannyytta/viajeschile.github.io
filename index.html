@@ -11,20 +11,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital@0;1&display=swap" rel="stylesheet">
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lw4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
 </head>
-<body>
-    <!--Nav-->
-    <nav>
+<body style="background-color: black;">
+<div class="container" style="background-color: black;">   
+    
+<!--Nav-->
+    <nav class="container">
+        <nav class="navbar navbar-expand-lg bg-info" data-bs-theme="dark";>
+            <div class= container-fluid>
+                <a class= "navbar-brand" href="logo">
+                    <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Viajes Chile
+                </a>
+                <div class="collapse navbar-collapse position-absolute bottom-0 end-0 " id="navbarNav">
+                    <ul class="navbar-nav text-light">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
     </nav>
     <!--Fin Nav-->
 
 
     <!--Header-->
-    <header>
-
+    <header class="container">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <!--Fin Header-->
 
@@ -32,11 +79,77 @@
     <!--QUIENES SOMOS-->
 
     <article id="quienes-somos">
-        <section id="titulo-quienes-somos">
-
+        <section id="titulo-quienes-somos container" style="padding: 20px;">
+            <CENTER><p class="fs-3" style="color: #ffffff";>¿QUIÉNES SOMOS?</p></CENTER>
         </section>
-        <section id="parrafos">
+        <section id="parrafos container">
 
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card border-dark mb-3 bg-black " style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-dark" style="background-color: black;">
+                           FOOTER
+                        </div>
+                        <div class="card-body text-light">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec mattis ante nulla. Donec in neque consectetur,
+                                uitrices justo eu, hendrerit lectus. Nullam fermentum
+                                turpis et dolor euismod consequat sed sed ante.
+                                Curabitur vel lacinia nisi. Sed mollis condimentum
+                                rhoncus. Proin sed diam eu risus auctor aliquet Sed nisi
+                                lorem. mollis sit amet gravida in, finibus ut diam. Nunc
+                                cursus lacus ex. id interdum nibh tristique ac. Maecenas
+                                in mi blandit, euismod ipsum eu, lobortis nisi interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                                Mauris ultricies sem eu massa pellentesque, id interdum
+                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
+                        <div class="card-body text-light">
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec mattis ante nulla. Donc in neque consectetur.
+                                ultrices justo eu. hendrerit lectus. Nullam fermentum
+                                turpis et dolor euismod consequat sed sed ante.
+                                Curabitur vel lacinia nisi. Sed mollis condimentum
+                                rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
+                                lorem, mollis sit amet gravida in, finibus ut diam. Nunc
+                                cursus lacus ex, id interdum nibh tristique ac. Maecenas
+                                in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                                Mauris ultricies sem eu massa pellentesque, id interdum
+                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-dark">
+                            Footer <i class="fa-sharp fa-solid fa-mountain" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
+                        <div class="card-header bg-transparent border-dark">
+                            Header <i class="fa-solid fa-route" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="card-body text-light">
+                            <h5 class="card-title">Success card title</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consecteur adipiscing elit.
+                                Donec mattis ante nulla. Donec in neque consectetur.
+                                ultrices justo eu. hendrerit lectus. Nullam fermentum
+                                turpis et dolor euismod consequat sed sed ante.
+                                Curabitur vel lacinia nisi. Sed mollis condimentum
+                                thoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
+                                lorem. mollis sit amet gravida in, finibus ut diam. Nunc
+                                cursus lacus ex, id interdum nibh tristique ac. Maecenas
+                                in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
+                                et malesuada fames ac ante ipsum primis in faucibus.
+                                Mauris ultricies sem eu massa pellentesque. id interdum
+                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </article>
 
@@ -45,10 +158,52 @@
 
     <!--DESTACADOS-->
     <article id="destacados">
-        <section id="titulo-destacados">
+        <section id="titulo-quienes-somos container" style="padding: 20px;">
+            <CENTER><p class="fs-3" style="color: #ffffff";>DESTACADOS</p></CENTER>
 
         </section>
+
+        
+
         <section id="cards-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col col-lg-3">
+                  <div class="card h-100 card text-bg-info mb-3" style="max-width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-3">
+                  <div class="card h-100 card text-bg-info mb-2" style="max-width: 18rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-3">
+                  <div class="card h-100 card text-bg-info mb-3"  style="max-width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-lg-3">
+                  <div class="card h-100card h-100 card text-bg-info mb-3"  style="max-width: 18rem;">
+                    <img src="assets/img/card4.jpg" class="card-img-top" >
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
         </section>
     </article>
@@ -58,26 +213,42 @@
 
     <!--CONTACTO-->
     <article id="contacto">
-        <section id="titulo-contacto">
+        <section id="titulo-quienes-somos container" style="padding: 20px;">
+            <CENTER><p class="fs-3" style="color: #ffffff";>CONTACTO</p></CENTER>
 
         </section>
         <section id="formulario">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="NOMBRE APELLIDO">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ASUNTO">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-info mb-3">Enviar</button>
+            </div>
 
         </section>
     </article>
     <!--FIN CONTACTO-->
-
+<br><br><br>
 
     <!--FOOTER-->
 
-    <footer>
+    <footer style="background-color:  #0cccf4 ; padding: 20px;">
     <section>
-
+        <div>iconos</div>
     </section>    
     </footer>
 
     <!--FIN FOOTER-->
-
+</div>
 
 
    
