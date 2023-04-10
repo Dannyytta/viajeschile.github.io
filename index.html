@@ -16,12 +16,12 @@
 
     
 </head>
-<body style="background-color: black;">
+<body class="scrollspy" style="background-color: black;">
 <div style="background-color: black;">   
     
 <!--Nav-->
     <nav>
-        <nav class="navbar navbar-expand-lg bg-transparent fixed-top" data-bs-theme="dark";>
+        <nav class="navbar navbar-expand-lg bg-transparent fixed-top scrollspy" data-bs-theme="dark";>
             <div class= container-fluid>
                 <a class= "navbar-brand" href="logo">
                     <img src="assets/img/viajes.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
@@ -33,13 +33,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
               </div>
@@ -51,7 +51,7 @@
 
 
     <!--Header-->
-    <header  style="padding-bottom: 20px;">
+    <header id="seccion1" style="padding-bottom: 20px;">
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -77,15 +77,18 @@
     <!--Fin Header-->
 
 
-    <!--QUIENES SOMOS 2-->
+    <!--QUIENES SOMOS -->
 
-    <article class="container" id="quienes-somos" style="justify-content: center;">
+    <article class="container" id="quienes-somos" style="justify-content: center;" >
+      <section id="titulo-quienes-somos container" style="padding: 20px;">
+        <CENTER><p class="fs-3" style="color: #ffffff";>¿QUIENES SOMOS?</p></CENTER>
+      </section>
       <div class="row ">
         <div class="col-12 col-sm-6 col-md-4 col-lg-4">
           <div class="icono-avion">
             <i class="fas fa-plane" style="color: #ffffff;"></i>
           </div>
-          <p style="color: #ffffff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          <p class="d-none d-md-block" style="color: #ffffff">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
              Sequi at dolore totam minus distinctio voluptates nihil, <br>
              quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
              optio veniam, rerum sed hic quod repudiandae.</p>
@@ -94,7 +97,7 @@
           <div class="icono-montana">
             <i class="fas fa-mountain" style="color: #ffffff;"></i>
           </div>
-          <p style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          <p class="d-none d-md-block" style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
              Sequi at dolore totam minus distinctio voluptates nihil, <br>
              quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
              optio veniam, rerum sed hic quod repudiandae.</p>
@@ -103,94 +106,14 @@
           <div class="icono-ruta">
             <i class="fas fa-route" style="color: #ffffff;"></i>
           </div>
-          <p style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+          <p class="d-none d-md-block" style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
              Sequi at dolore totam minus distinctio voluptates nihil, <br>
              quam dolores. Architecto reprehenderit obcaecati dolorum quae <br> 
              optio veniam, rerum sed hic quod repudiandae.</p>
         </div>
       </div>
     </article>
-
-    <!--QUIENES SOMOS
-
-    <article id="quienes-somos container">
-        <section id="titulo-quienes-somos" style="padding: 20px; margin-bottom: 20px;">
-            <CENTER><p class="fs-3" style="color: #ffffff";>¿QUIÉNES SOMOS?</p></CENTER>
-        </section>
-        <section id="parrafos container">
-
-            <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col container" style="text-align: center ;">
-                    <div class="card border-dark mb-3 bg-black " style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-dark" style="background-color: #0cccf4;">
-                           FOOTER
-                        </div>
-                        <div class="card-body text-light">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec mattis ante nulla. Donec in neque consectetur,
-                                uitrices justo eu, hendrerit lectus. Nullam fermentum
-                                turpis et dolor euismod consequat sed sed ante.
-                                Curabitur vel lacinia nisi. Sed mollis condimentum
-                                rhoncus. Proin sed diam eu risus auctor aliquet Sed nisi
-                                lorem. mollis sit amet gravida in, finibus ut diam. Nunc
-                                cursus lacus ex. id interdum nibh tristique ac. Maecenas
-                                in mi blandit, euismod ipsum eu, lobortis nisi interdum
-                                et malesuada fames ac ante ipsum primis in faucibus.
-                                Mauris ultricies sem eu massa pellentesque, id interdum
-                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col container">
-                    <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
-                        <div class="card-body text-light">
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec mattis ante nulla. Donc in neque consectetur.
-                                ultrices justo eu. hendrerit lectus. Nullam fermentum
-                                turpis et dolor euismod consequat sed sed ante.
-                                Curabitur vel lacinia nisi. Sed mollis condimentum
-                                rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
-                                lorem, mollis sit amet gravida in, finibus ut diam. Nunc
-                                cursus lacus ex, id interdum nibh tristique ac. Maecenas
-                                in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
-                                et malesuada fames ac ante ipsum primis in faucibus.
-                                Mauris ultricies sem eu massa pellentesque, id interdum
-                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                        </div>
-                        <div class="card-footer bg-transparent border-dark">
-                            Footer <i class="fa-sharp fa-solid fa-mountain" style="color: #ffffff;"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col container">
-                    <div class="card border-dark mb-3 bg-black" style="max-width: 18rem;">
-                        <div class="card-header bg-transparent border-dark">
-                            Header <i class="fa-solid fa-route" style="color: #ffffff;"></i>
-                        </div>
-                        <div class="card-body text-light">
-                            <h5 class="card-title">Success card title</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consecteur adipiscing elit.
-                                Donec mattis ante nulla. Donec in neque consectetur.
-                                ultrices justo eu. hendrerit lectus. Nullam fermentum
-                                turpis et dolor euismod consequat sed sed ante.
-                                Curabitur vel lacinia nisi. Sed mollis condimentum
-                                thoncus. Proin sed diam eu risus auctor aliquet. Sed nisi
-                                lorem. mollis sit amet gravida in, finibus ut diam. Nunc
-                                cursus lacus ex, id interdum nibh tristique ac. Maecenas
-                                in mi blandit. euismod ipsum eu. lobortis nisi. Interdum
-                                et malesuada fames ac ante ipsum primis in faucibus.
-                                Mauris ultricies sem eu massa pellentesque. id interdum
-                                nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </article>
-
-   -FIN QUIENES SOMOS-->
-
-
+    
     <!--DESTACADOS-->
     <article class="container"  id="destacados">
         <section id="titulo-quienes-somos container" style="padding: 20px;">
@@ -205,8 +128,8 @@
               <div class="card h-100 card text-bg-info mb-3" style="max-width: 18rem;">
                 <img src="assets/img/card1.jpg" class="card-img-top" >
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title" style="color: #ffffff;">Card title</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem doloremque unde quidem optio cum maiores pariatur ab ratione asperiores quisquam, nemo sit corporis, sed voluptatibus itaque, voluptas repellendus tenetur nam.</p>
                 </div>
               </div>
             </div>
@@ -214,8 +137,8 @@
                 <div class="card h-100 card text-bg-info mb-2" style="max-width: 18rem;">
                   <img src="assets/img/card2.jpg" class="card-img-top" >
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title" style="color: #ffffff;">Card title</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo dolorum quae minus odio? Excepturi nisi eaque, molestiae iure odio unde facilis nesciunt debitis aspernatur, vitae magnam possimus porro ex explicabo.</p>
                   </div>
                 </div>
               </div>
@@ -223,8 +146,8 @@
                   <div class="card h-100 card text-bg-info mb-3"  style="max-width: 18rem;">
                     <img src="assets/img/card3.jpg" class="card-img-top" >
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title" style="color: #ffffff;">Card title</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, velit cupiditate. Dolor eos sit placeat, nesciunt deserunt itaque provident, expedita dignissimos at sint explicabo quibusdam dolore ut similique officiis animi!</p>
                     </div>
                   </div>
                 </div>
@@ -232,8 +155,8 @@
                   <div class="card h-100card h-100 card text-bg-info mb-3"  style="max-width: 18rem;">
                     <img src="assets/img/card4.jpg" class="card-img-top" >
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <h5 class="card-title" style="color: #ffffff;">Card title</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, minima impedit, fuga fugit voluptate eum fugiat omnis ad mollitia quod alias! Nisi beatae tempore perferendis nobis ipsum, vitae excepturi quibusdam.</p>
                     </div>
                   </div>
                 </div>
@@ -246,7 +169,7 @@
 
 
     <!--CONTACTO-->
-    <article id="contacto container" style="padding: 50px;">
+    <article id="contacto" class="container" style="padding: 50px;">
         <section id="titulo-quienes-somos container" style="padding: 20px;">
             <CENTER><p class="fs-3" style="color: #ffffff";>CONTACTO</p></CENTER>
 
@@ -276,13 +199,29 @@
 
     <!--FOOTER-->
 
-    <footer class="row col-12" style="background-color:  #0cccf4 ; padding: 20px;" >
-    <section>
-        <div><p class="fs-3" style="color: #ffffff";>CONTACTO</p></div>
-        <div class="container" style="justify-content: end;">iconos </div>
+    <footer id="row col-12" style="background-color:  #0cccf4 ; padding: 20px;">
+  <section style="display: flex; justify-content: space-between; align-items: center;">
 
-    </section>    
-    </footer>
+    <div><p class="fs-6 col-6" style="color: #ffffff; margin: 0;">VIAJES CHILE</p></div>
+
+    <div class="container-fluid FS-6" target="_blank" style="display: flex; justify-content: flex-end; align-items: center; gap: 10px;">
+      <a href="https://github.com/Dannyytta/viajeschile.github.io">
+        <i class="fab fa-github-square" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank">
+        <i class="fab fa-linkedin" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://twitter.com/?lang=es" target="_blank">
+        <i class="fab fa-twitter-square" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square" style="color: #ffffff;"></i>
+      </a>
+    </div>
+
+  </section>
+</footer>
+
 
     <!--FIN FOOTER-->
 </div>
